@@ -1,0 +1,12 @@
+{
+    "hooks": [
+        {
+            "name": "google.render.script",
+            "script": "./cartridge/scripts/hooks/renderScript.js"
+        },
+        {
+            "name": "google.verify.captcha",
+            "script": "./cartridge/scripts/hooks/verifyCaptcha.js"
+        }
+    ]
+}
