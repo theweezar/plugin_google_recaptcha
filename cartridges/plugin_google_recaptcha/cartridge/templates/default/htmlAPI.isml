@@ -12,5 +12,9 @@
             });
         });
     }
-    executeCaptcha();
+    if (typeof executeCaptcha === 'function') {
+        executeCaptcha();
+    } else {
+        setTimeout(executeCaptcha, 500);
+    }
 </script>
